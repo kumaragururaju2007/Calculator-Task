@@ -1,0 +1,61 @@
+ .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            object-fit: cover;}
+   #display {
+    width: 600px;
+    height: 50px;
+    font-size: 24px;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+}         
+
+h1{
+    background-color: white;
+    color: black;
+    border-color: black;
+    text-align: center;}
+
+table {
+  border-collapse: collapse;
+  width: 400px; 
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  width: 80px;
+  height: 60px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+
+button{
+    border-radius: 50%;
+    border-color: white;
+    color: black;
+    background-color: white;
+    size: 100%;  
+}
+.button1{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.button{
+    color: white;
+
+    border-color: greenyellow;
+    background-color: greenyellow;
+}
+button:hover {
+  transition-duration: 1s;
+      transform: scale(1.2);
+    }
